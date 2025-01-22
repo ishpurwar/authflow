@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@plasmicapp/loader-nextjs": "^1.0.410",
-    "@supabase/ssr": "^0.5.2",
+    "@supabase/ssr": "^0.4.0",
     "next": "14.2.23",
     "plasmic-supabase": "^0.4.1",
     "react": "^18",
