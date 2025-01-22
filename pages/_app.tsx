@@ -1,6 +1,12 @@
-import "@/styles/globals.css";
-import type { AppProps } from "next/app";
+import React from 'react';
+import type { AppProps } from 'next/app';
 
-export default function App({ Component, pageProps }: AppProps) {
+//Import the CSS required for SupabaseUppyUploader globally
+import "@uppy/core/dist/style.min.css";
+import "@uppy/dashboard/dist/style.min.css";
+
+function MyApp({ Component, pageProps }: AppProps) {
   return <Component {...pageProps} />;
 }
+
+export default MyApp;
