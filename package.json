@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "vercel-build": "npm install --legacy-peer-deps && next build"
+    "lint": "next lint"
   },
   "dependencies": {
     "@plasmicapp/loader-nextjs": "^1.0.410",
