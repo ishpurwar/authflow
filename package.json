@@ -4,13 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm install --legacy-peer-deps && next build",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@plasmicapp/loader-nextjs": "^1.0.410",
-    "@supabase/ssr": "^0.4.0",
+    "@supabase/ssr": "^0.5.2",
     "next": "14.2.23",
     "plasmic-supabase": "^0.4.1",
     "react": "^18",
